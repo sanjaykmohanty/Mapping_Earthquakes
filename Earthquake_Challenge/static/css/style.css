@@ -1,0 +1,37 @@
+html,
+body,
+#mapid {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.legend {
+  padding: 10px;
+  line-height: 18px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+.leaflet-control-layers-toggle {
+  background-image: url(https://i.stack.imgur.com/3keSg.png) !important;
+	background-color: whitesmoke;
+  background-size: 20px 20px;
+}
+
+.leaflet-touch .leaflet-control-layers-toggle {
+background-image: url(https://i.stack.imgur.com/3keSg.png) !important;
+background-color: rgb(3, 35, 98);
+}
+
+.leaflet-control-layers-expanded {
+  color: white;
+	background-color: rgb(8, 107, 168);
+}
